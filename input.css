@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: "Outfit", sans-serif; 
+  --font-raleway: "Raleway", sans-serif; 
+}
+
+@font-face {
+  font-family: Outfit;
+  font-style: medium;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/Outfit-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Outfit;
+  font-style: medium;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/Outfit-ExtraBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Raleway;
+  font-style: medium;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/Raleway-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Raleway;
+  font-style: medium;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/Raleway-ExtraBoldItalic.woff2") format("woff2");
+}
+
